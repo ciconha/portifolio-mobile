@@ -1,0 +1,41 @@
+name: dudu_portfolio
+description: "Portfólio pessoal do Dudu feito com Flutter Web."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  url_launcher: ^6.2.6
+  font_awesome_flutter: ^10.7.0
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  font_awesome_flutter: ^10.7.0
+
+flutter:
+  uses-material-design: true
+  assets:
+     - lib/assets/Credits To Artist_D.jpg
+     - lib/assets/Copilot_20250716_112454.png
+     - lib/assets/Copilot_20250716_113842.png
+     - lib/assets/Copilot_20250716_113900.png
+     - lib/assets/Copilot_20250716_120826.png
+     - lib/assets/Copilot_20250718_191104.png
+     - lib/assets/Copilot_20250718_191318.png
+     - lib/assets/Captura de tela de 2025-07-18 19-18-04.png
+     - lib/assets/Copilot_20250718_192337.png
+     - lib/assets/Copilot_20250718_192911.png
+     - lib/assets/20250127_151330.jpg
+
+  # Ativa o uso de imagens, se precisar depois:
+  # assets:
+  #   - assets/perfil.jpg
